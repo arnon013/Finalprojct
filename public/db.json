@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+    "id": "1",
+    "name": "RAM DDR3L(1333 NB) 4GB G.SKILL",
+    "description": "Capacity 4GB  Memory Type DDR3L Speed Bus 1333 MHz",
+    "price": 1409,
+    "category_id": "2",
+    "qty": "0",
+    "waranty": "0",
+    "created": "2017-08-15 17:37:11",
+    "img": "assets/img/product/p8.png"
+  },
+  {
+    "id": "4",
+    "name": "SSD BADDAY 250 GB",
+    "description": "SSD Write 3000/1ms\nRead 3000/1ms\n250GB",
+    "price": 990,
+    "category_id": "3",
+    "qty": "1",
+    "waranty": "1",
+    "created": "2020-01-09 17:13:53",
+    "img": "assets/img/product/p2.png"
+  },
+  {
+    "id": "40",
+    "name": "HHD WD GREEN 250GB",
+    "description": "HHD WD GREEN 250GB",
+    "price": 780,
+    "category_id": "2",
+    "qty": "20",
+    "waranty": "3",
+    "created": "2020-01-12 19:45:40",
+    "img": "assets/img/product/p3.png"
+  },
+  {
+    "id": "42",
+    "name": "HDD 512GB",
+    "description": "HHD",
+    "price": 1000,
+    "category_id": "2",
+    "qty": "0",
+    "waranty": "0",
+    "created": "2020-01-14 14:59:09",
+    "img": "assets/img/product/p5.png"
+  },
+  {
+    "id": "44",
+    "name": "Ram DDR4 4GB 2300Mhz",
+    "description": "ก็แรมอะครับ",
+    "price": 2400,
+    "category_id": "1",
+    "qty": "2",
+    "waranty": "2",
+    "created": "2020-01-14 15:15:09",
+    "img": "assets/img/product/p8.png"
+  },
+  {
+    "id": "46",
+    "name": "Ram DDR4 4GB 2300Mhz",
+    "description": "4GB 2300 CoreShair",
+    "price": 1500,
+    "category_id": "3",
+    "qty": "0",
+    "waranty": "0",
+    "created": "2020-01-16 08:40:44",
+    "img": "assets/img/product/p1.png"
+  },
+  {
+    "id": "49",
+    "name": "M.2 Samsung",
+    "description": "5555",
+    "price": 1000,
+    "category_id": "5",
+    "qty": "10",
+    "waranty": "1",
+    "created": "2020-02-28 01:01:26",
+    "img": "assets/img/product/p5.png"
+  }
+  ]
+}

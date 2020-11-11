@@ -1,0 +1,146 @@
+ <div>
+      <div className="">
+        <div className="container">
+          <h4>ตรวจสอบสถานะการจองคิว</h4>
+          
+        </div>
+      </div>
+      <br />
+      <div className="container">
+      <table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">ลำดับ</th>
+      <th scope="col">ชื่อรุ่น</th>
+      <th scope="col">สถานะการจอง</th>
+      
+     
+      <th scope="col"></th>
+     
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>lenovo</td>
+      <td><p class="text-danger">รอการยืนยัน</p></td>
+      
+      <td>
+        <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bd-example-modal-xl">รายละเอียด</button>&nbsp;
+        <button type="button" class="btn btn-info">แก้ไข</button>&nbsp;
+        <button type="button" class="btn btn-danger">ยกเลิกการจองคิว</button>&nbsp;
+        <button type="button" class="btn btn-success">ยืนยันการจองคิว</button>
+        </td>
+        
+      <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+    <table className="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">ลำดับ</th>
+              <th scope="col">ชื่อรุ่น</th>
+              
+              
+              <th scope="col">วันเวลาที่ลูกค้านัด</th> 
+              <th scope="col">อาการเสียจากลูกค้า</th>
+              <th scope="col">อาการเสียจากช่างคาดการ</th> 
+              <th scope="col">ราคาโดยประมาณ</th>
+              <th scope="col">ช่างผู้ตรวจสอบอาการ</th> 
+            
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>lenovo</td>
+              
+             
+              <td>20/02/2563 9.00AM</td>
+              <td>เครื่องเปิดไม่ติด</td>
+              <td>ฮาดดิสเสีย</td>
+              <td>1200 บาท</td>
+              <td>วิสรุต</td>
+             
+             
+            </tr>
+
+            
+           
+          </tbody>
+        </table>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">ปิด</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </tr>
+
+    <tr>
+      <th scope="row">2</th>
+      <td>lenovo</td>
+      <td><p class="text-success">ยืนยันแล้ว</p></td>
+      
+      <td>
+        <button type="button" class="btn btn-warning" data-toggle="modal" data-target=".bd-example-modal-xl">รายละเอียด</button>&nbsp;
+        
+        </td>
+        
+      <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+    <table className="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">ลำดับ</th>
+              <th scope="col">ชื่อรุ่น</th>
+              
+              
+              <th scope="col">วันเวลาที่ลูกค้านัด</th> 
+              <th scope="col">อาการเสียจากลูกค้า</th>
+              <th scope="col">อาการเสียจากช่างคาดการ</th> 
+              <th scope="col">ราคาโดยประมาณ</th>
+              <th scope="col">ช่างผู้ตรวจสอบอาการ</th> 
+            
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">2</th>
+              <td>lenovo</td>
+              
+             
+              <td>20/02/2563 9.00AM</td>
+              <td>เครื่องเปิดไม่ติด</td>
+              <td>ฮาดดิสเสีย</td>
+              <td>1200 บาท</td>
+              <td>วิสรุต</td>
+             
+             
+            </tr>
+
+            
+           
+          </tbody>
+        </table>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">ปิด</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+    </tr>
+    
+  
+  </tbody>
+</table>
+      </div>
+    </div>
